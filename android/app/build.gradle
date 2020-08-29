@@ -128,7 +128,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.oidc"
+        applicationId "com.oidc.ivan"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -144,10 +144,10 @@ android {
     }
     signingConfigs {
         debug {
-            storeFile file('debug.keystore')
-            storePassword 'android'
-            keyAlias 'androiddebugkey'
-            keyPassword 'android'
+            storeFile file('oidc-ivan.keystore')
+            storePassword '123456'
+            keyAlias 'oidc-ivan'
+            keyPassword '123456'
         }
     }
     buildTypes {

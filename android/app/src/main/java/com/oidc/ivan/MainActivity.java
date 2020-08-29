@@ -1,4 +1,4 @@
-package com.oidc;
+package com.oidc.ivan;
 
 import com.facebook.react.ReactActivity;
 

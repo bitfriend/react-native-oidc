@@ -1,4 +1,4 @@
-package com.oidc;
+package com.oidc.ivan;
 
 import android.app.Application;
 import android.content.Context;
